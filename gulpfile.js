@@ -180,6 +180,4 @@ let cleanTinyPng = () => {
 
 gulp.task('build', gulp.series(clean, imagePng, scriptBuild, styleBuild, fontsBuild, pluginBuild, fileApp, imageminJpg, imageBuild, cleanTinyPng));
 
-
-
 gulp.task('default', gulp.series(style, watch));
